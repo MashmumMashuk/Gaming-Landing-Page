@@ -160,7 +160,7 @@ header {
 .section-2{
     
     display: flex;
-    padding-top: 50px;
+    padding-top: 80px;
     margin-top: 80px;
     margin-bottom: 80px;
     height: 500px;
@@ -264,3 +264,35 @@ header {
 }
 
 
+@media(max-width:746px){
+    .main-section{
+        display: block;
+    }
+    .section-2{
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin-bottom:80%;
+
+    }
+    .section-2-right{
+        text-align: center;
+    }
+    .section-2-left{
+        max-width: 100%;
+    }
+
+    
+    .section-3-cards{
+        display: block;
+    }
+
+    .careers-div{
+        display: grid;
+    }
+    .section-5-left{
+        max-width: 100%;
+    }
+    .section
+
+}
